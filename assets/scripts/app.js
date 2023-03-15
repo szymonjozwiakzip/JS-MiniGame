@@ -4,6 +4,7 @@ const enteredValue = parseInt(
 
 let chosenMaxLife = enteredValue;
 if (isNaN(chosenMaxLife) || chosenMaxLife <= 0) {
+  alert('Invalid user input! Life for you and monster is now 100.');
   chosenMaxLife = 100;
 }
 
